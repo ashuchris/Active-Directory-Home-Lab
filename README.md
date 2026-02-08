@@ -30,6 +30,8 @@ The objective of this project was to build an Active Directory home lab using Wi
 <p>
 <img src="https://i.imgur.com/8EIYHbB.png"/>
 </p>
+
+</br>
 <h2>2. Join Windows 10 Client to the domain</h2>
 
 - Installed Windows 10 on the VMware hypervisor
@@ -39,6 +41,8 @@ The objective of this project was to build an Active Directory home lab using Wi
 <img src="https://i.imgur.com/H1zRnro.png"/>
 </p>
 
+
+</br>
 <h2>3. Create Organizational Units, Users, and Security Groups</h2>
 
 - We then create 3 OUs, which are HR, IT, and Sales
@@ -50,6 +54,8 @@ The objective of this project was to build an Active Directory home lab using Wi
 <img src="https://i.imgur.com/4qtpmTL.png"/>
 </p>
 
+
+</br>
 <h2>4. Create File Shares and Permissions</h2>
 
 - Created shared folders for each department, which are IT-TOOLs, SALES-REPORT, and HR_FILES
@@ -58,4 +64,41 @@ The objective of this project was to build an Active Directory home lab using Wi
 <p>
 <img src="https://i.imgur.com/tFyWlnw.png"/> <img src="https://i.imgur.com/zonmUSl.png"/>
 </p>
+
+
+</br>
+<h2>5. Configuring Group Policies (GPO)</h2>
+
+<h3>The first GPO we enforce is the password complexity policy. We want to make sure passwords created by users meet the complexity requirements for security purposes and link them </h3>
+
+</br>
+<p>
+<img src="https://i.imgur.com/ARGikhi.png"/>
+</p>
+
+</br>
 <br />
+<h3>The second GPO we enforce is mapping network drives for our shared folders. We mapped all our folders to drives for easy access by our OUs </h3>
+
+</br>
+<p>
+<img src="https://i.imgur.com/fg324fo.png"/> 
+<img src="https://i.imgur.com/O9q6SXx.png"/>
+</p>
+
+
+</br>
+<br />
+<h3>The third GPO we enforce is making sure the control panel is disabled for our HR and Sales OU, as they do not need access to that </h3>
+
+<p>
+<img src="https://i.imgur.com/sYXfyI9.png"/> 
+<img src="https://i.imgur.com/1NdLtRQ.png"/> 
+</p>
+
+<h2>Conclusion</h2>
+<p>
+This Active Directory home lab demonstrates the deployment and administration of a small enterprise domain environment. Through this project, I configured centralized identity management, implemented Group Policy security controls, and enforced role-based access using security groups and NTFS permissions.
+</p>
+
+
