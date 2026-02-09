@@ -6,10 +6,6 @@
 The objective of this project was to build an Active Directory home lab using Windows Server 2022 and Windows 10 to simulate an enterprise domain environment and perform common IT helpdesk administrative tasks such as user management, access control, and Group Policy configuration.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How to Deploy on-premises Active Directory within Azure Compute](https://youtu.be/hFMQYR5wpyQ)
-
 <h2>Tools and Technologies Used</h2>
 
 - VMware 
